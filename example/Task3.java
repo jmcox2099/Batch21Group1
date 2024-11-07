@@ -11,8 +11,13 @@ public class Task3 {
                 {3,9,11,4},
                 {7,77,17,84,96}
         };
+        System.out.println("These are all the even numbers:");
         for (int [] dT:distinguishableThings) {
-
+            for (int tD:dT) {
+                if (tD%2==0) {
+                    System.out.print(tD+" ");
+                }
+            }
         }
 
     }
